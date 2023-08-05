@@ -56,4 +56,43 @@ which means that it retains the value of ‘this’ from its enclosing function 
 
 const person = new Person();
 person.printMyName();
+
+// const num=1;
+// const num2 = num;
+
+// console.log(num2);
+
+// const person ={
+//     name: 'John'
+// }
+// const secondPerson ={
+//     ...person
+// };
+// person.name = 'Johndobe';
+// console.log(secondPerson);
+
+// normal fun
+// function printMyName(name) {
+//     console.log(name);
+// }
+// printMyName('jyoti');
+
+// arrow function 
+// const printMyName= (name) =>{
+//   console.log(name);}
+
+//    printMyName('jyoti');
+
+// const printMyName =(name, age) =>{
+//   console.log(name, age);}
+
+//   printMyName('jyoti', 100);
+
+
+const mul= (num) =>  num*2;
+
+console.log(mul(2));
+
+
+
 person.printgender();
