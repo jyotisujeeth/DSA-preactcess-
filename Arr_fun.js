@@ -94,5 +94,45 @@ const mul= (num) =>  num*2;
 console.log(mul(2));
 
 
+// const myName = "dindogdig";
+// console.log(myName);
 
+// myName= "sujeeth"
+// console.log(myName);
+
+// destructuring for array 
+
+// const numbers =[1, 2, 3, 4];
+// //[num1, , , num4]= numbers;
+// [num1, num2, num3, num4] = numbers;
+// console.log( num1, num4);
+
+// spread and rest operators 
+
+// rest operator is used to marge a list of function arguments into an array
+
+// const numbers= [1, 2, 3, 4];
+// const newnum =[...numbers, 2,2,4,5];
+// console.log(newnum);
+
+// for object 
+
+// const person ={
+//     name: 'John'
+// };
+
+// const newperson = {
+//     ...person,
+//     age: 28
+// }
+
+// console.log(newperson);
+
+// rest operatoress
+
+const fillter = (...args) => {
+    return args.filter(el => el === 1);
+}
+
+console.log(fillter(1, 2, 3, 1, 5));// use for function argument
 person.printgender();
