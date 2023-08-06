@@ -1,5 +1,7 @@
 /*
-Input: n = 3, goal = 3, k = 1
+Input: n = 3,
+goal = 3,
+k = 1
 Output: 6
 Explanation: There are 6 possible playlists: [1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], and [3, 2, 1].
 */
