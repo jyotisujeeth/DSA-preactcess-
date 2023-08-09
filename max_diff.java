@@ -7,6 +7,7 @@ class Solution {
         while (index < nums.length - 1) {
             // If a valid pair is found, skip both numbers.
             if (nums[index + 1] - nums[index] <= threshold) {
+                
                 count++;
                 index++;
             }
