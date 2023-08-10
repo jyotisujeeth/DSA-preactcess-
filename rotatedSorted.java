@@ -3,6 +3,7 @@ nums = [2,5,6,0,0,1,2], target = 0
 Output: true
 */
 //Binary Search
+
 // returns true if element `target` exists in the first sorted array.
 private boolean existsInFirst(int[] arr, int start, int element) {
     return arr[start] <= element;
